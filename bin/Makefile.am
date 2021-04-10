@@ -1,6 +1,7 @@
 SUBDIRS = docs music icon
 EXTRA_DIST = plugins.cfg.in resources.cfg.in hiscore.lst.in
 
+dist_desktopinstall_DATA = funguloids.desktop
 dist_pixmapinstall_DATA = funguloids.png
 dist_gameinstall_DATA = gamesettings.cfg
 dist_docinstall_DATA = readme.html

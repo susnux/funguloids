@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Categories=Game;ArcadeGame;
+Name=Those Funny Funguloids!
+GenericName=Space Game
+Comment=Those Funny Funguloids!
+Exec=funguloids
+Icon=funguloids
+

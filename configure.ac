@@ -245,6 +245,7 @@ musicinstalldir="${gameinstalldir}/music"
 docinstalldir="${docdir}"
 docimageinstalldir="${docinstalldir}/docs"
 pixmapinstalldir="${datarootdir}/pixmaps"
+desktopinstalldir="${datarootdir}/applications"
 
 AC_SUBST(prefix)
 AC_SUBST(bininstalldir)
@@ -254,6 +255,7 @@ AC_SUBST(musicinstalldir)
 AC_SUBST(docinstalldir)
 AC_SUBST(docimageinstalldir)
 AC_SUBST(pixmapinstalldir)
+AC_SUBST(desktopinstalldir)
 
 AC_DEFINE_UNQUOTED([OGRE_PLUGINS_AND_RESOURCES_PATH], ["${gameinstalldir}/"], [That's where plugins.cfg and resources.cfg are installed])
 AC_MSG_NOTICE([Installing Funguloids resources in ${gameinstalldir}])
